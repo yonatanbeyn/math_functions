@@ -1,4 +1,5 @@
 def per_inc(x,y):
+    ''' function which calculates the percentage of increase or decrease of a number '''
     old=y
     new=x
     ret=new-old
