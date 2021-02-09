@@ -14,9 +14,21 @@ def per_inc(x,y):
         
 
 	print(ret1,'%')
+	
+	
+### another function#######
+
 def linear_eq(eq):
+	''' function which evaluates linear equation and prints x to y values '''
     first=int(eq[2])
     
     y=int(eq[5])
     for i in range(-2,3):
-        print('for ',i,'==',first*i+y)	
+		print('for ',i,'==',first*i+y)	
+###example
+"""linear_eq('y=2x+3')
+for  -2 == -1
+for  -1 == 1
+for  0 == 3
+for  1 == 5
+for  2 == 7"""
