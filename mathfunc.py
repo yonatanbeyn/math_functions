@@ -12,4 +12,11 @@ def per_inc(x,y):
     else:
         print('increase ',end='')
         
-        print(ret1,'%')
+
+	print(ret1,'%')
+def linear_eq(eq):
+    first=int(eq[2])
+    
+    y=int(eq[5])
+    for i in range(-2,3):
+        print('for ',i,'==',first*i+y)	
