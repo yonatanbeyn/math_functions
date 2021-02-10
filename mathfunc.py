@@ -1,9 +1,9 @@
 def per_inc(x,y):
     ''' function which calculates the percentage of increase or decrease of a number '''
-    old=y
-    new=x
-    ret=new-old
-    ret1=ret/old*100
+    old=y #old value
+    new=x   #new value
+    ret=new-old #return
+    ret1=ret/old*100  # the percentage return value
 	
     if ret1 < 0:
         
@@ -13,7 +13,7 @@ def per_inc(x,y):
         print('increase ',end='')
         
 
-	print(ret1,'%')
+	print({ret1:0.2f},'%')#only prints 2 digit floating point
 	
 	
 ### another function#######
