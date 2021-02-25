@@ -32,6 +32,22 @@ for  -1 == 1
 for  0 == 3
 for  1 == 5
 for  2 == 7"""
+#quadratic equation function
+'''
+Quadratic equation root calculator
+'''
+def roots(a, b, c):
+	D = (b*b - 4*a*c)**0.5
+	x_1 = (-b + D)/(2*a)
+        x_2 = (-b - D)/(2*a)
+        print('x1: {0}'.format(x_1))
+        print('x2: {0}'.format(x_2))
+if __name__ == '__main__':     #save in a file and run
+    a = input('Enter a: ')
+    b = input('Enter b: ')
+    c = input('Enter c: ')
+    roots(float(a), float(b), float(c))
+
 # is prime number function
 def is_prime(n):
 	for i in range(2,n):
