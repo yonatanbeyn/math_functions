@@ -41,3 +41,11 @@ def is_prime(n):
 for n in range(1,20):
 	if is_prime(n):
 		print(n)
+		
+# function which checks if a number is a factor of another number		
+def is_factor(a, b):
+	if b % a == 0:
+		return True
+        else:
+		 return	False	
+		
